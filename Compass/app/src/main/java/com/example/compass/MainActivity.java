@@ -60,7 +60,7 @@ public class MainActivity extends Activity implements SensorEventListener {
             long delta_time = current_time - prev_time_acc;
             //The coordinates update each 0.5s.
             if(delta_time > 500) {
-                //x_coordinator.setText("" + x);
+                x_coordinator.setText("" + x);
                 y_coordinator.setText("" + y);
                 z_coordinator.setText("" + z);
                 prev_time_acc = current_time;
